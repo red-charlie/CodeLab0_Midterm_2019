@@ -7,5 +7,8 @@
 //Change highscore as you get it
 if( current_score > high_score){
 	high_score = current_score;
+	global.high_score = high_score;
+
 }
+
 

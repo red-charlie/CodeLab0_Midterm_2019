@@ -1,8 +1,9 @@
 /// @description check correct letter
 // You can write your code in this editor
 
-//check for correct letter
-if(keyboard_check_pressed(ord(current_letter))){
+//check for correct letter & if the game is started
+if(keyboard_check(ord(current_letter))&& global.game_start == true ){
+	
 	
 	//get new random stuff - letter from bag
 	random_pos_letter = irandom(ds_list_size(letter_list)-1); // randomize again
@@ -17,7 +18,7 @@ if(keyboard_check_pressed(ord(current_letter))){
 	
 
 	//reset game timer 
-	global.timer = 5*room_speed;
+	global.timer = 3*room_speed;
 	
 	
 	//get random body part
@@ -28,17 +29,19 @@ if(keyboard_check_pressed(ord(current_letter))){
 		
 	}
 	
-	//move that body a litte - should choose random body part
-	body_wiggle(45,global.bodyPart)
+	
 	//add to current score
 	with obj_ui {
 		current_score += 1; 
-			}	
+		}	
+}
+
+ 
+
 			
 	//correct screen wiggle - need to get the timing/screen location working on this
 	//Screen_shake_norm(x,y,6);
 	
-}
 
 
 

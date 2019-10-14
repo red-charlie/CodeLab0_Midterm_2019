@@ -4,3 +4,4 @@
 
 current_score = 0;
 high_score = 0;
+global.high_score =0;

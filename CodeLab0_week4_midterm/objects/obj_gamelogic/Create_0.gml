@@ -14,11 +14,14 @@ x-bounce to "music"
 -the skeleton should "dance/move" everytime you press a key
 */
 
-game_start = false;
-//alarm [0] = .5*room_speed;
+global.game_start = false;
+timer_amt = 3;
+q_timer = 1*room_speed; 
 // changing alarm stuff to timer stuff probably
-global.timer = 5*room_speed;
+global.timer = timer_amt*room_speed;
+global.globtime = 0;
 
+#region random body parts
 randomize();
 //random seed
 
@@ -38,3 +41,20 @@ obj_skeletonTorso
 
 random_pos_body = irandom(ds_list_size(body_list)-1); // random 
 global.bodyPart = body_list [|random_pos_body]; //random part of the body list
+#endregion
+
+#region MusicSelection
+//make the list
+song_list = ds_list_create();
+
+//add the songs to the list
+ds_list_add(song_list, Heist, City, Crowd); 
+
+//random list
+random_pos_song = irandom(ds_list_size(song_list)-1);
+
+//random part of song list
+Current_Song = song_list [|random_pos_song];
+
+
+#endregion

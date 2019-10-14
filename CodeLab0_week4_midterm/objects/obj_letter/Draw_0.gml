@@ -7,8 +7,8 @@ draw_self();
 draw_set_font(fnt_typing);
 
 //align font
-//draw_set_halign(fa_middle);
-//draw_set_valign(fa_middle);
+draw_set_halign(fa_middle);
+draw_set_valign(fa_middle);
 
 //Current letter being drawn on the box
 draw_text_color(

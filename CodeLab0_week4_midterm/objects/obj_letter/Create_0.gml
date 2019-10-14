@@ -57,3 +57,4 @@ full_letter_list
 random_pos_letter = irandom(ds_list_size(letter_list)-1); // random 
 current_letter = letter_list [|random_pos_letter]; //random part of list
 #endregion
+

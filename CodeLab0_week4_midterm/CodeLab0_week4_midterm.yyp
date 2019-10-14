@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "283ff2ac-723b-4617-b25e-b4570b41ecc7",
+            "Value": {
+                "id": "3c0c57d0-0c1d-4f1a-aaf0-e101bc4430b3",
+                "resourcePath": "objects\\BlackoutUI\\BlackoutUI.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e576606-bf37-4df8-b5e6-8e82256b6748",
             "Value": {
                 "id": "7754f669-de8c-49a0-993d-d2346c2ad6b4",
@@ -100,6 +108,14 @@
                 "id": "447d7f91-a18a-4aec-ac77-c489e19cf907",
                 "resourcePath": "objects\\obj_skeletonArml\\obj_skeletonArml.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "36f5a77e-6f56-4140-82ca-906308725647",
+            "Value": {
+                "id": "60e44b2f-a719-4499-b395-22e526fdcd22",
+                "resourcePath": "sounds\\Heist\\Heist.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "976a94a7-e4af-489d-8d0b-edf21850af21",
+            "Value": {
+                "id": "8b7a9643-47ec-4d8c-b995-34ccdc0ba2e7",
+                "resourcePath": "sounds\\City\\City.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "9ba15cec-0f24-40f5-811c-ea09e7f0992f",
             "Value": {
                 "id": "d39cec43-af10-44e9-a5c1-0c54347e5bb3",
@@ -324,6 +348,14 @@
                 "id": "cb7f616a-2c71-47bd-9eec-fec76031020e",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a4a9a449-3c9a-4071-b59d-98a835740ba5",
+            "Value": {
+                "id": "3579d7b4-3972-49ed-8e25-bcdb703aadb1",
+                "resourcePath": "sounds\\Crowd\\Crowd.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -388,14 +420,6 @@
                 "id": "9ac042f0-b3de-4faf-8b4c-d2caee8f7d79",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "cceee409-952b-473c-874b-1b6dc94d5722",
-            "Value": {
-                "id": "c3c58136-31e4-4e12-a5f5-bc028b23f29b",
-                "resourcePath": "scripts\\Screen_shake_norm\\Screen_shake_norm.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -464,7 +488,6 @@
         }
     ],
     "script_order": [
-        "cceee409-952b-473c-874b-1b6dc94d5722",
         "49215835-ee23-4667-a519-6a667a98a354",
         "5f808002-96c9-4f9a-9a79-0264c67c21ca"
     ],

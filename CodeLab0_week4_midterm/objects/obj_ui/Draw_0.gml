@@ -51,27 +51,6 @@ draw_text_color(
 //Note to Self - please alter color for this one later!
 #endregion
 
-#region instructions
-//set font - the big font
-draw_set_font(fnt_score);
-
-//align font - mid
-draw_set_halign(fa_middle);
-draw_set_valign(fa_middle);
-
-//the same as scores - keeps at the bottom
-draw_text_color(
-	camera_get_view_x(view_camera[0])+400, 
-	camera_get_view_y(view_camera[0])+50,
-	"TYPE THE CORRECT LETTERS TO DANCE, BABY!~",
-	c_white,
-	c_white,
-	c_white,
-	c_white,
-	1
-	)
-
-#endregion
 
 #region timer
 //set font - the big font

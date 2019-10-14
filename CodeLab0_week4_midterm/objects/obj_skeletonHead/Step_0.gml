@@ -6,3 +6,13 @@
 //	direction = -3;
 
 //}
+
+//sad if not dancing - chooses second face
+if (global.game_start == false) {
+	image_index = 1;
+} 
+//happy when dancing - chooses first face index
+else {
+	image_index = 0;
+}
+
