@@ -78,11 +78,14 @@ if (global.timer <= 0){
 #region body wiggle tests
 	//move that body a litte - should choose random body part
 	if(global.game_start == true){
-	body_wiggle(choose(5,10),global.bodyPart);
+	randomize();
+	body_wiggle(irandom_range(-5,5),global.bodyPart);
 	 //show_debug_message("I wiggled a little");
 	}
 #endregion
 
+
+//bounce to the music (half second beats)
 if(global.game_start == true){
 	q_timer--;
 	if(q_timer > 0 && q_timer < .5*room_speed){

@@ -5,16 +5,6 @@
     "name": "obj_gamelogic",
     "eventList": [
         {
-            "id": "70320210-0189-489a-9dcf-7d6ce8bf18b3",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "40514a22-f299-409f-9821-fabe31305c38"
-        },
-        {
             "id": "7ed6da0c-8162-43ec-b854-2b125b6bd568",
             "modelName": "GMEvent",
             "mvc": "1.0",

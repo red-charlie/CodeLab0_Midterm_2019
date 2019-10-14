@@ -28,11 +28,12 @@ randomize();
 // random body part
 body_list = ds_list_create(); //all the body parts?
 ds_list_add(body_list,
+obj_skeletonFoot,
+obj_skeletonHand,
 obj_skeletonArml,
 obj_skeletonArmu,
 obj_skeletonCalf,
 obj_skeletonFoot,
-obj_skeletonHand,
 obj_skeletonHead,
 obj_skeletonHips,
 obj_skeletonThigh,

@@ -23,6 +23,7 @@ if(keyboard_check(ord(current_letter))&& global.game_start == true ){
 	
 	//get random body part
 	with obj_gamelogic{
+		randomize();
 		//ugh, this is a lot - but it's the same as the letter picker
 		random_pos_body = irandom (ds_list_size (body_list)-1); //randomize the thing
 		global.bodyPart = body_list [|random_pos_body]; //random part of the list
@@ -34,15 +35,14 @@ if(keyboard_check(ord(current_letter))&& global.game_start == true ){
 	with obj_ui {
 		current_score += 1; 
 		}	
+	
+	//move hands around
+	with obj_skeletonHand {
+		direction = random(360);
+		
+	}
 }
 
  
-
-			
-	//correct screen wiggle - need to get the timing/screen location working on this
-	//Screen_shake_norm(x,y,6);
-	
-
-
 
 
