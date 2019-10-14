@@ -28,8 +28,12 @@ if(keyboard_check(vk_space) && global.game_start == false){
 }
 //don't play music if the game isn't going
 if (global.game_start == false) {
-	audio_stop_all();
+	
 	instance_create_depth(40,679,-10,BlackoutUI);
+	audio_stop_sound(Heist);
+	audio_stop_sound(Crowd);
+	audio_stop_sound(City);
+	
 	
 }
 
@@ -62,6 +66,7 @@ global.globtime++;
 
 if (global.timer <= 0){
 	//reset timer when you fail
+	audio_play_sound(CyberDeathCute, 1, 0);
 	global.game_start = false;
 	global.timer = timer_amt*room_speed;
 

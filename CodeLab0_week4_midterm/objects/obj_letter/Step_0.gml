@@ -4,6 +4,8 @@
 //check for correct letter & if the game is started
 if(keyboard_check(ord(current_letter))&& global.game_start == true ){
 	
+	//ding you did it
+	audio_play_sound(ding, 1, 0);
 	
 	//get new random stuff - letter from bag
 	random_pos_letter = irandom(ds_list_size(letter_list)-1); // randomize again

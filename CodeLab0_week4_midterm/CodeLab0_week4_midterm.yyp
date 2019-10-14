@@ -423,11 +423,27 @@
             }
         },
         {
+            "Key": "da4f50b3-46ff-48b7-82d3-7587bc8bdc3b",
+            "Value": {
+                "id": "e424ab4f-47d7-41c2-9f08-7dbdee42e1de",
+                "resourcePath": "sounds\\ding\\ding.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dc6a740e-c102-4580-9256-3f15d2bad7e2",
             "Value": {
                 "id": "8afe5825-dd42-4f50-bc95-8ac4fefe985f",
                 "resourcePath": "objects\\obj_skeletonHips\\obj_skeletonHips.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "df14a207-623e-4e64-9343-425953ef4694",
+            "Value": {
+                "id": "7e2db8b1-047d-430f-bc70-ebb47fd9aa5b",
+                "resourcePath": "sounds\\CyberDeathCute\\CyberDeathCute.yy",
+                "resourceType": "GMSound"
             }
         },
         {
